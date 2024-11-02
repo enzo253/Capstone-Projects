@@ -1,0 +1,41 @@
+.flag {
+    height: 600px;
+    width: 900px;
+    background-color: red;
+    display: flex;
+    flex-direction: column; 
+    position: relative;
+}
+
+.flag p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 67px;
+}
+
+.flag > div {
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 150px; 
+    
+}
+
+.flag > div > div {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.flag > div p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
